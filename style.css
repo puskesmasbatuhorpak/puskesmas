@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f19e9e;
+    color: #070404;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #007BFF;
+    color: #fff;
+    padding-top: 20px;
+    min-height: 70px;
+    border-bottom: #0056b3 3px solid;
+}
+
+header .logo {
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+    margin-right: 0;
+    padding: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    padding: 0 20px;
+}
+
+header a {
+    color: #f5f5f5;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #e0e0e0;
+}
+
+.hero {
+    min-height: 400px;
+    background: url('https://via.placeholder.com/1500x500') no-repeat 0 -200px;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 22px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.info, .schedule, .contact {
+    background: #98e995;
+    text-align: center;
+}
+
+.info h2, .services h2, .schedule h2, .contact h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #007BFF;
+}
+
+.services {
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service-item {
+    background: #f3f1f1;
+    border: 1px solid #cf2121;
+    border-radius: 5px;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.service-item h3 {
+    color: #0056b3;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background: #007BFF;
+    color: #fffefe;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
